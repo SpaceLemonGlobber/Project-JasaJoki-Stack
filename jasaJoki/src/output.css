@@ -14,6 +14,8 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
     --radius-lg: 0.5rem;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
@@ -41,6 +43,7 @@
     --color-darkest-purple: #0C0714;
     --color-light-blue: #00FFF2;
     --font-IBM: "IBM Plex Sans Condensed";
+    --color-gray: #D9D9D9;
   }
 }
 @layer base {
@@ -242,6 +245,12 @@
   .sticky {
     position: sticky;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .top-\[78px\] {
+    top: 78px;
+  }
   .isolate {
     isolation: isolate;
   }
@@ -353,6 +362,42 @@
       max-width: 96rem !important;
     }
   }
+  .mx-7 {
+    margin-inline: calc(var(--spacing) * 7);
+  }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
+  }
+  .mx-\[72px\] {
+    margin-inline: 72px;
+  }
+  .mx-\[91px\] {
+    margin-inline: 91px;
+  }
+  .mx-auto {
+    margin-inline: auto;
+  }
+  .my-20 {
+    margin-block: calc(var(--spacing) * 20);
+  }
+  .mt-12 {
+    margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-\[15px\] {
+    margin-top: 15px;
+  }
+  .mt-\[70px\] {
+    margin-top: 70px;
+  }
+  .mt-\[75px\] {
+    margin-top: 75px;
+  }
+  .mb-\[42px\] {
+    margin-bottom: 42px;
+  }
   .ml-\[11px\] {
     margin-left: 11px;
   }
@@ -456,6 +501,15 @@
   .h-12 {
     height: calc(var(--spacing) * 12);
   }
+  .h-\[54px\] {
+    height: 54px;
+  }
+  .h-\[364px\] {
+    height: 364px;
+  }
+  .h-full {
+    height: 100%;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -474,8 +528,29 @@
   .w-12 {
     width: calc(var(--spacing) * 12);
   }
+  .w-\[50px\] {
+    width: 50px;
+  }
+  .w-\[52px\] {
+    width: 52px;
+  }
+  .w-\[57px\] {
+    width: 57px;
+  }
+  .w-\[70px\] {
+    width: 70px;
+  }
+  .w-\[75px\] {
+    width: 75px;
+  }
   .w-\[955px\] {
     width: 955px;
+  }
+  .w-\[958px\] {
+    width: 958px;
+  }
+  .w-full {
+    width: 100%;
   }
   .w-screen {
     width: 100vw;
@@ -710,6 +785,9 @@
   .auto-rows-min {
     grid-auto-rows: min-content;
   }
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
   .grid-cols-none {
     grid-template-columns: none;
   }
@@ -872,6 +950,12 @@
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
+  .gap-\[18px\] {
+    gap: 18px;
+  }
+  .gap-\[22px\] {
+    gap: 22px;
+  }
   .gap-\[26px\] {
     gap: 26px;
   }
@@ -968,6 +1052,12 @@
   }
   .rounded {
     border-radius: 0.25rem;
+  }
+  .rounded-\[18px\] {
+    border-radius: 18px;
+  }
+  .rounded-\[35px\] {
+    border-radius: 35px;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -1088,6 +1178,9 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .border-white\/70 {
     border-color: color-mix(in oklab, var(--color-white) 70%, transparent);
   }
@@ -1105,6 +1198,9 @@
   }
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
+  }
+  .bg-gray {
+    background-color: var(--color-gray);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1130,6 +1226,9 @@
   .bg-radial {
     --tw-gradient-position: in oklab;
     background-image: radial-gradient(var(--tw-gradient-stops));
+  }
+  .bg-\[url\(\'\.img\\valo\.png\'\)\] {
+    background-image: url('.img\valo.png');
   }
   .bg-none {
     background-image: none;
@@ -1329,6 +1428,9 @@
   .object-top {
     object-position: top;
   }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
   }
@@ -1401,6 +1503,10 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-sm {
     font-size: var(--text-sm);
@@ -1646,6 +1752,12 @@
   }
   .scheme-only-light {
     color-scheme: only light;
+  }
+  .opacity-50 {
+    opacity: 50%;
+  }
+  .opacity-90 {
+    opacity: 90%;
   }
   .mix-blend-plus-darker {
     mix-blend-mode: plus-darker;
