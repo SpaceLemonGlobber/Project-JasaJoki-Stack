@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@theme {
+    --color-purple: #6B0099;
+    --color-dark-purple: #3B0E4E;
+    --font-ice-land: "Iceland";
+    --color-purples: #0F081C;
+    --color-dark-purples: #261548;
+    --color-darkest-purple: #0C0714;
+    --color-light-blue: #00FFF2;
+    --font-IBM: "IBM Plex Sans Condensed";
+}
