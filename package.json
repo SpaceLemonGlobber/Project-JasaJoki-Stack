@@ -1,0 +1,23 @@
+{
+  "name": "project-jasajoki-stack",
+  "version": "1.0.0",
+  "description": "repo dari proyek kelompok 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceLemonGlobber/Project-JasaJoki-Stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpaceLemonGlobber/Project-JasaJoki-Stack/issues"
+  },
+  "homepage": "https://github.com/SpaceLemonGlobber/Project-JasaJoki-Stack#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}
