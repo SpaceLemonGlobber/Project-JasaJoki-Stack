@@ -382,11 +382,29 @@
   .m-5 {
     margin: calc(var(--spacing) * 5);
   }
+  .m-50 {
+    margin: calc(var(--spacing) * 50);
+  }
   .mx-7 {
     margin-inline: calc(var(--spacing) * 7);
   }
   .mx-10 {
     margin-inline: calc(var(--spacing) * 10);
+  }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
+  }
+  .mx-25 {
+    margin-inline: calc(var(--spacing) * 25);
+  }
+  .mx-40 {
+    margin-inline: calc(var(--spacing) * 40);
+  }
+  .mx-45 {
+    margin-inline: calc(var(--spacing) * 45);
+  }
+  .mx-50 {
+    margin-inline: calc(var(--spacing) * 50);
   }
   .mx-\[72px\] {
     margin-inline: 72px;
@@ -484,6 +502,9 @@
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
+  .mb-25 {
+    margin-bottom: calc(var(--spacing) * 25);
+  }
   .mb-40 {
     margin-bottom: calc(var(--spacing) * 40);
   }
@@ -492,6 +513,12 @@
   }
   .mb-70 {
     margin-bottom: calc(var(--spacing) * 70);
+  }
+  .mb-100 {
+    margin-bottom: calc(var(--spacing) * 100);
+  }
+  .mb-200 {
+    margin-bottom: calc(var(--spacing) * 200);
   }
   .mb-\[42px\] {
     margin-bottom: 42px;
@@ -635,6 +662,9 @@
   .h-\[1085px\] {
     height: 1085px;
   }
+  .h-full {
+    height: 100%;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -661,6 +691,9 @@
   }
   .w-3 {
     width: calc(var(--spacing) * 3);
+  }
+  .w-3\/4 {
+    width: calc(3/4 * 100%);
   }
   .w-3\/5 {
     width: calc(3/5 * 100%);
@@ -1132,8 +1165,17 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
   .gap-18 {
     gap: calc(var(--spacing) * 18);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -1141,17 +1183,26 @@
   .gap-\[18px\] {
     gap: 18px;
   }
+  .gap-\[20px\] {
+    gap: 20px;
+  }
   .gap-\[22px\] {
     gap: 22px;
   }
   .gap-\[26px\] {
     gap: 26px;
   }
+  .gap-\[30px\] {
+    gap: 30px;
+  }
   .gap-\[50px\] {
     gap: 50px;
   }
   .gap-\[60px\] {
     gap: 60px;
+  }
+  .gap-\[80px\] {
+    gap: 80px;
   }
   .gap-\[100px\] {
     gap: 100px;
@@ -1820,6 +1871,12 @@
   .object-top {
     object-position: top;
   }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
+  .p-100 {
+    padding: calc(var(--spacing) * 100);
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -1867,6 +1924,9 @@
   }
   .px-30 {
     padding-inline: calc(var(--spacing) * 30);
+  }
+  .px-35 {
+    padding-inline: calc(var(--spacing) * 35);
   }
   .px-40 {
     padding-inline: calc(var(--spacing) * 40);
