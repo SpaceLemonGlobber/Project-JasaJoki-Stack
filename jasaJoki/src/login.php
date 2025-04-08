@@ -8,13 +8,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $identifier = $_POST['identifier']; // This can be username or email
     $password   = $_POST['password'];
 
-    echo "DEBUG: Identifier = $identifier<br>";
-
     // Check for either username or email
     $stmt = $conn->prepare("SELECT User_Password FROM data_user WHERE User_Nama = ? OR User_Email = ?");
     $stmt->bind_param("ss", $identifier, $identifier);
     $stmt->execute();
-    echo "DEBUG: Executed query<br>";
 
     $result = $stmt->get_result();
 
@@ -22,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $row = $result->fetch_assoc();
 
         if ($password === $row['User_Password']) { // Change to password_verify() if using hashes
-            echo "Login successful";
+            echo "<script>alert('User Log In successfully!'); window.location.href='homePage.html';</script>";
         } else {
             echo "Incorrect password";
         }
