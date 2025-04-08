@@ -73,26 +73,26 @@
             <span class="text-[160px] text-[#FC91F1] font-ice-land">JasaJoki</span>
         </div>
     </div>
-    <div class="bg-shape mx-[200px] rounded-[35px] ">
-        <div class="flex flex-col px-16 pt-[140px]">
-            <label class="font-IBM text-[26px] text-white mb-5">Username</label>
-            <input type="text" placeholder="Enter username..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4">
+    <form action="register.php" method="POST">
+        <div class="bg-shape mx-[200px] rounded-[35px]">
+            <div class="flex flex-col px-16 pt-[140px]">
+                <label class="font-IBM text-[26px] text-white mb-5">Username</label>
+                <input type="text" name="username" placeholder="Enter username..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4" required>
+            </div>
+            <div class="flex flex-col px-16 pt-16">
+                <label class="font-IBM text-[26px] text-white mb-5">Email</label>
+                <input type="email" name="email" placeholder="Enter email..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4" required>
+            </div> 
+            <div class="flex flex-col px-16 py-16">
+                <label class="font-IBM text-[26px] text-white mb-5">Password</label>
+                <input type="password" name="password" placeholder="Enter password..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4" required>
+            </div> 
+            <div class="flex mx-[210px] font-IBM text-[64px] text-white bg-purple rounded-[35px] items-center border-white border-4 justify-center">
+                <button type="submit">Register</button>
+            </div>
+            <div class="pb-[100px]"></div>
         </div>
-        <div class="flex flex-col px-16 pt-16 ">
-            <label class="font-IBM text-[26px] text-white mb-5">Email</label>
-            <input type="text" placeholder="Enter email..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4">
-        </div> 
-        <div class="flex flex-col px-16 py-16 ">
-            <label class="font-IBM text-[26px] text-white mb-5">Password</label>
-            <input type="text" placeholder="Enter password..." class="bg-purple py-[52px] px-12 text-white font-IBM text-[26px] rounded-[35px] border-white border-4">
-        </div> 
-        <div class="flex mx-[210px] font-IBM text-[64px]  text-white bg-purple rounded-[35px] items-center border-white border-4 justify-center">
-            <button>Register</button>
-        </div>
-        <div class="pb-[100px]">
-        </div>
-        
-    </div>
+    </form>    
     <div class="flex gap-[18px] px-[70px] py-[70px] mt-[100px]">
         <img src="img/dc_pink.png" alt="#" class="w-[70px] h-[54px]">
         <img src="img/ig_pink.png" alt="#" class="w-[57px] h-[54px]">
