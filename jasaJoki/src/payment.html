@@ -14,38 +14,90 @@
     <title>JasaJoki</title>
 </head>
 <body class="bg-gradient-to-r from-purples from-17% via-dark-purples via-56% to-darkest-purple to-80% ">
+    <nav class="opacity-90 sticky top-0 flex items-center justify-between px-10 py-2 bg-gradient-to-r from-black from-0% via-purple via-71% to-dark-purple to-100%  border-b-2 border-white/70">
+        <div class=" flex items-center gap-3">
+            <img src="img/logo.png" alt="logo" class="w-12 h-12 "> 
+            <span class="text-[40px] text-[#FC91F1] font-ice-land">JasaJoki</span>
+        </div>
+        <div class="relative flex items-center text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute ml-[18px]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+            <input type="text"  placeholder="Search here..." class="w-[955px] h-9 border-[1px] rounded-lg py-[5px] px-14 text-white text-2xl">
+        </div>
+        <div class="relative flex items-center">
+            <img src="img/indonesia.png" alt="indo" class="size-6 absolute ml-[11px]">
+            <button class="items-center pl-[50px] pr-6 py-1 text-sm border-[1px] rounded-lg text-white text-[20px] font-bold">ID</button>
+        </div>
+        <div>
+
+        </div>
+    </nav>
+    <nav class=" opacity-90 sticky top-[78px] flex items-center justify-between px-10 py-2 bg-gradient-to-r from-black from-0% via-purple via-71% to-dark-purple to-100%  ">
+        <div class="flex items-center gap-[26px] justify-start">
+            <div class="flex items-center gap-1">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-light-blue">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+             <a href="homePage.html" class="text-light-blue text-2xl font-IBM">Home</a>
+            </div>
+            <div class="flex items-center gap-1 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="size-6 ">
+                    <path d="M13.2595 3.00007C8.16954 2.86007 3.99954 6.95007 3.99954 12.0001H2.20954C1.75954 12.0001 1.53954 12.5401 1.85954 12.8501L4.64954 15.6501C4.84954 15.8501 5.15954 15.8501 5.35954 15.6501L8.14954 12.8501C8.45954 12.5401 8.23954 12.0001 7.78954 12.0001H5.99954C5.99954 8.10007 9.17954 4.95007 13.0995 5.00007C16.8195 5.05007 19.9495 8.18007 19.9995 11.9001C20.0495 15.8101 16.8995 19.0001 12.9995 19.0001C11.3895 19.0001 9.89954 18.4501 8.71954 17.5201C8.31954 17.2101 7.75954 17.2401 7.39954 17.6001C6.97954 18.0201 7.00954 18.7301 7.47954 19.0901C8.99954 20.2901 10.9095 21.0001 12.9995 21.0001C18.0495 21.0001 22.1395 16.8301 21.9995 11.7401C21.8695 7.05007 17.9495 3.13007 13.2595 3.00007ZM12.7495 8.00007C12.3395 8.00007 11.9995 8.34007 11.9995 8.75007V12.4301C11.9995 12.7801 12.1895 13.1101 12.4895 13.2901L15.6095 15.1401C15.9695 15.3501 16.4295 15.2301 16.6395 14.8801C16.8495 14.5201 16.7295 14.0601 16.3795 13.8501L13.4995 12.1401V8.74007C13.4995 8.34007 13.1595 8.00007 12.7495 8.00007Z" fill="white"/>
+                </svg>
+            <a href="history.html" class="text-white text-2xl font-IBM">History</a>
+            </div>
+        </div>
+        <div class="flex items-center gap-[26px]  justify-end ">
+            <div class="flex items-center gap-1 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M0 12C0 11.6817 0.158033 11.3765 0.439339 11.1515C0.720644 10.9264 1.10217 10.8 1.5 10.8H12.885L9.435 8.052C9.29514 7.94011 9.1842 7.80729 9.10851 7.6611C9.03282 7.51491 8.99386 7.35823 8.99386 7.2C8.99386 7.04177 9.03282 6.88509 9.10851 6.7389C9.1842 6.59271 9.29514 6.45989 9.435 6.348C9.57486 6.23611 9.74089 6.14736 9.92363 6.08681C10.1064 6.02626 10.3022 5.99509 10.5 5.99509C10.6978 5.99509 10.8936 6.02626 11.0764 6.08681C11.2591 6.14736 11.4251 6.23611 11.565 6.348L17.565 11.148C17.7016 11.2621 17.8086 11.3967 17.88 11.544C18.03 11.8362 18.03 12.1638 17.88 12.456C17.8086 12.6033 17.7016 12.7379 17.565 12.852L11.565 17.652C11.4256 17.7645 11.2597 17.8537 11.0769 17.9147C10.8941 17.9756 10.698 18.007 10.5 18.007C10.302 18.007 10.1059 17.9756 9.92313 17.9147C9.74035 17.8537 9.57444 17.7645 9.435 17.652C9.29441 17.5404 9.18282 17.4077 9.10666 17.2615C9.03051 17.1153 8.9913 16.9584 8.9913 16.8C8.9913 16.6416 9.03051 16.4847 9.10666 16.3385C9.18282 16.1923 9.29441 16.0596 9.435 15.948L12.885 13.2H1.5C1.10217 13.2 0.720644 13.0736 0.439339 12.8485C0.158033 12.6235 0 12.3183 0 12ZM4.5 0H19.5C20.6935 0 21.8381 0.379285 22.682 1.05442C23.5259 1.72955 24 2.64522 24 3.6V20.4C24 21.3548 23.5259 22.2705 22.682 22.9456C21.8381 23.6207 20.6935 24 19.5 24H4.5C3.30653 24 2.16193 23.6207 1.31802 22.9456C0.474106 22.2705 0 21.3548 0 20.4V16.8C0 16.4817 0.158033 16.1765 0.439339 15.9515C0.720644 15.7264 1.10217 15.6 1.5 15.6C1.89783 15.6 2.27936 15.7264 2.56066 15.9515C2.84197 16.1765 3 16.4817 3 16.8V20.4C3 20.7183 3.15803 21.0235 3.43934 21.2485C3.72064 21.4736 4.10217 21.6 4.5 21.6H19.5C19.8978 21.6 20.2794 21.4736 20.5607 21.2485C20.842 21.0235 21 20.7183 21 20.4V3.6C21 3.28174 20.842 2.97652 20.5607 2.75147C20.2794 2.52643 19.8978 2.4 19.5 2.4H4.5C4.10217 2.4 3.72064 2.52643 3.43934 2.75147C3.15803 2.97652 3 3.28174 3 3.6V7.2C3 7.51826 2.84197 7.82348 2.56066 8.04853C2.27936 8.27357 1.89783 8.4 1.5 8.4C1.10217 8.4 0.720644 8.27357 0.439339 8.04853C0.158033 7.82348 0 7.51826 0 7.2V3.6C0 2.64522 0.474106 1.72955 1.31802 1.05442C2.16193 0.379285 3.30653 0 4.5 0Z" fill="white"/>
+                </svg>
+             <a href="login.html" class="text-white text-2xl font-IBM">Login</a>
+            </div>
+            <div class="flex items-center gap-1 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M16.2857 8.57143C20.5462 8.57143 24 12.0252 24 16.2857C24 20.5462 20.5462 24 16.2857 24C12.0252 24 8.57143 20.5462 8.57143 16.2857C8.57143 12.0252 12.0252 8.57143 16.2857 8.57143ZM16.2857 12C15.8124 12 15.4286 12.3838 15.4286 12.8571V15.4286H12.8571C12.3838 15.4286 12 15.8124 12 16.2857C12 16.759 12.3838 17.1429 12.8571 17.1429H15.4286V19.7143C15.4286 20.1876 15.8124 20.5714 16.2857 20.5714C16.759 20.5714 17.1429 20.1876 17.1429 19.7143V17.1429H19.7143C20.1876 17.1429 20.5714 16.759 20.5714 16.2857C20.5714 15.8124 20.1876 15.4286 19.7143 15.4286H17.1429V12.8571C17.1429 12.3838 16.759 12 16.2857 12ZM9.01227 10.2857C8.68618 10.6806 8.39162 11.1024 8.13245 11.5474L7.88522 12H2.57143C2.15064 12 1.80067 12.3032 1.7281 12.7031L1.71429 12.8571V14.185C1.71429 16.1379 3.28629 17.1324 6.8957 17.1441C6.94877 17.7322 7.05588 18.3048 7.21198 18.8568L6.96033 18.8585C2.62744 18.8585 0.167429 17.4106 0.00824261 14.4922L0 14.185V12.8571C0 11.5205 1.0198 10.4221 2.32378 10.2975L2.57143 10.2857H9.01227ZM6.85714 0C9.22447 0 11.1436 1.91909 11.1436 4.2864C11.1436 6.65373 9.22447 8.57282 6.85714 8.57282C4.48982 8.57282 2.57073 6.65373 2.57073 4.2864C2.57073 1.91909 4.48982 0 6.85714 0ZM15.4286 1.71429C17.3222 1.71429 18.8571 3.24931 18.8571 5.14286C18.8571 5.85552 18.6398 6.51741 18.2676 7.06579C17.6285 6.92909 16.9656 6.85714 16.2857 6.85714C15.0987 6.85714 13.9632 7.07645 12.917 7.47677C12.348 6.86474 12 6.04443 12 5.14286C12 3.24931 13.535 1.71429 15.4286 1.71429ZM6.85714 1.71429C5.4366 1.71429 4.28503 2.86586 4.28503 4.2864C4.28503 5.70696 5.4366 6.85853 6.85714 6.85853C8.27769 6.85853 9.42926 5.70696 9.42926 4.2864C9.42926 2.86586 8.27769 1.71429 6.85714 1.71429ZM15.4286 3.42857C14.4818 3.42857 13.7143 4.19609 13.7143 5.14286C13.7143 6.08962 14.4818 6.85714 15.4286 6.85714C16.3754 6.85714 17.1429 6.08962 17.1429 5.14286C17.1429 4.19609 16.3754 3.42857 15.4286 3.42857Z" fill="white"/>
+                </svg>
+            <a href="register.html" class="text-white text-2xl font-IBM">Register</a>
+            </div>
+        </div>
+    </nav>
     <!-- Payment Section -->
-    <div class=" bg-gradient-to-r from-purples from-17% via-dark-purple via-56% to-darkest-purple to-80% text-white text-2xl font-ice-land w-[1200px] h-[1085px] mt-[161px] mb-[82px] mx-auto rounded-2xl border">
+    <div class=" bg-gradient-to-b from-dark from-0% to-light to-100% text-white text-2xl font-ice-land w-[1200px] h-[1085px] mt-[161px] mb-[82px] mx-auto rounded-2xl border">
         <!-- Kiri -->
          <div class="flex  items-start">
-            <div class="p-[65px] text-[25px]">
+            <div>
                 <div>
-                    <p class="">Username</p>
-                    <p class="font-Karantina text-[95px]">Farand</p>
+                    <p class="font-poppins italic px-[120px] pt-[140px] text-[35px]">Username</p>
+                    <p class="font-poppins px-[120px] pb-[50px] text-[40px]">Yogi</p>
                 </div>
                 <div>
-                    <p>Phone Number</p>
-                    <p class="font-Karantina text-[95px]">0812345634</p>
+                    <p class="font-poppins italic px-[120px] text-[35px]">Phone Number</p>
+                    <p class="font-poppins px-[120px] text-[40px]">0812345634</p>
                 </div>
+                <p class="font-poppins italic px-[120px] pt-[55px] text-[35px]">Game Type</p>
             </div>
             <!-- Kanan -->
-            <div class="p-[65px] text-[25px] " dir="ltr">
+            <div>
                 <div>
-                    <p class="ps-[180px]">Current Rank</p>
-                    <p class="font-Karantina text-[95px] ps-[180px]">SILVER III</p>
+                    <p class="font-poppins italic px-[150px] pt-[140px] text-[35px]">Current Rank</p>
+                    <p class="font-karantina font-bold pl-[150px] pb-[40px] text-[90px]">SILVER III</p>
                 </div>
                 <div>
-                    <p class="ps-[180px]">Target Rank</p>
-                    <p class="font-Karantina text-[95px] ps-[180px]">RADIANT</p>
+                    <p class="font-poppins italic px-[150px] text-[35px]">Target Rank</p>
+                    <p class="font-karantina font-bold pl-[150px]  text-[90px]">RADIANT</p>
                 </div>
             </div>
         </div>
         
-        <div class="flex p-[65px] items-center"> 
+        <div class="flex  items-center"> 
+            <div class="pl-[120px] pt-10 pb-24">
             <img src="img/valorant.png" alt="Valorant" class="w-[323px] h-[500px]">
-            <div class="text-[25px] items-center text-center">
-                    <p class="ps-[180px]">Prices</p>
-                    <p class="font-Karantina text-[95px] ps-[220px]">IDR 1.500.000,00 </p>
+            </div>
+            <div class=" text-[25px] items-center text-center">
+                    <p class="pl-[50px] font-poppins italic text-[35px]">Prices</p>
+                    <p class="font-karantina font-bold pl-[60px] text-[95px] ">IDR 1.500.000,00 </p>
             </div>
         </div>
     </div>
@@ -55,32 +107,26 @@
      <div class="flex justify-center mb-[100px]">
         <img src="img/payment-met.png" alt="" class="w-[1000px]">
      </div>
-     <div class="flex">
-
-         <button class="bg-gradient-to-r from-purple from-17% via-dark-purple via-56% to-darkest-purple to-80%  rounded-4xl text-white text-lg font-medium p-[20px] w-[300px] mx-auto">CONFIRM</button>
-     </div>
-     <div class="flex py-[100px]">
-        <img src="img/ads.png" alt="">
-     </div>
+     <div class="flex items-center justify-center mt-20 mb-20">
+        <button class="text-white bg-black text-[50px] px-60 p-5 rounded-l-full rounded-r-full border-6 border-[#E0E0E0]/60">Confirm</button>
+    </div>
     </a>
 
      <!-- Footer -->
-      <div class="p-[138px]">
-          <div class=" flex items-center gap-3">
-             <img src="img/logo.png" alt="logo" class="w-11  "> 
-             <span class="text-[25px] text-[#FC91F1] font-ice-land">JasaJoki</span>
-
-             <p class="text-[25px] text-white font-ice-land">JasaJoki Terbukti, Terpecaya, Untuk Kita Semua</p>
-            </div>
-            <p class="text-[25px] text-white font-ice-land mt-8">Hubungi Kami:</p>
-
-         <div class="flex py-5 gap-4">
-            
-            <img src="./img/dc_pink.png" alt="" class="w-[50px] h-[42px]">
-            <img src="./img/ig_pink.png" alt="" class="w-[50px] h-[42px]">
-            <img src="./img/X_pink.png" alt="" class="w-[50px] h-[42px]">
-            <img src="./img/email_pink.png" alt="" class="w-[50px] h-[42px]">
+     <hr class="text-white mx-7">
+     <div class="mx-[91px]">
+         <div class=" flex items-center gap-3 mt-[70px] ">
+             <img src="img/logo.png" alt="logo" class="w-12 h-12 "> 
+             <span class="text-[40px] text-[#FC91F1] font-ice-land">JasaJoki</span>
          </div>
-      </div>
+             <h2 class="font-ice-land text-[40px] text-white mt-[15px]">JasaJoki Terbukti, Terpecaya, Untuk Kita Semua</h2>
+             <h2 class="font-ice-land text-[40px] text-white mt-[15px]">Hubungi Kami:</h2>
+         <div class="flex gap-[18px] mt-[15px] mb-[42px]">
+             <img src="img/dc_pink.png" alt="#" class="w-[70px] h-[54px]">
+             <img src="img/ig_pink.png" alt="#" class="w-[57px] h-[54px]">
+             <img src="img/X_pink.png" alt="#" class="w-[52px] h-[54px]">
+             <img src="img/email_pink.png" alt="#" class="w-[75px] h-[54px]">
+         </div>
+     </div>
 </body>
 </html>
